@@ -1,0 +1,712 @@
+/*MEDIDAS PANTALLAS
+    - Medida de mi compu: 1366 x 768 
+    - Medida en Queries: 375 x 621 100%
+    - Cabe aclarar que, al realizarlo en Safari (creo que para desarrollar va a ser mejor hacerlo en Chrome), si sos vos Victor xd , 
+      la medida a especificar en tu compu es la mencionada arriba (1366 x 768), me di cuenta que se llevan bien 
+      pero hasta ahí (los navegadores).
+*/
+
+* {
+    margin: 0%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/*No se porque tuve que hacer este id, es decir, sin este id en Safari el logo de la izquierda del nav se perfecto
+ pero en otro navegador como Chrome y Opera se ve estirado y no se PORQUE
+ Sé que no es la mejor resolución pero la verdad me tomó desprevenido cuando arranqué con responsive*/
+
+    /*NAV*/
+
+#img-header {
+    height: 23px;
+    position: relative;
+    top: 40px;
+}
+
+#nav-main {
+    display: flex;
+    justify-content: space-around;
+    color: #242E52;
+}
+
+.a-nav {
+    text-decoration: none;
+    color: #232C50;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    padding: 3%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #232C50;
+}
+
+#hamburguer {
+    display: none;
+}
+
+    /*HOME*/
+
+.home {
+    display: flex;
+}
+
+.home3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.column-right {
+    margin: 6.5%;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-right2 {
+    margin: 6.5%;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-left {
+    display: flex;
+    width: 720px;
+}
+
+.column-left2 {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    margin: 6.5%;
+}
+
+.box-left2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 553px;
+    height: 158px;
+    margin-bottom: 5%;
+}
+
+.content-left2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.title-left2 {
+    color:  #323851;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.p-left2 {
+    color: #B3B2B7;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5.5%;
+}
+
+h1 {
+    color: #232C50;
+    width: 500px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+}
+
+article {
+    margin-top: 28px;
+    width: 350px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+h5 {
+    position: relative;
+    top: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #232C50;    
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 600px;
+}
+
+#button-get-home {
+    margin-top: 20px;
+}
+
+.h2-home {
+    width: 433px;
+    color: #232C50;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.what-said {
+    background-color: #fafafa;
+    width: 445px;
+    height: 304px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.img-profile {
+    position: relative;
+    bottom: 70px;
+}
+
+.said-text {
+    position: relative;
+    left: 15px;
+    bottom: 25px;
+    text-align: center;
+    width: 410px;
+}
+
+#said-text-ali {
+    position: relative;
+    left: 15px;
+    bottom: 25px;
+    text-align: center;
+    width: 410px;
+}
+
+#middle-home {
+    color: #232C50;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 60%;
+}
+
+#footer-what-said {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+    /*PRE-FOOTER*/
+
+#pre-footer {
+    position: relative;
+    top: 225px;
+    background-color: #F3613C;
+    width: 1440px;
+    height: 244px;
+}
+
+#flex-pre-footer {
+    position: relative;
+    top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+    /*FOOTER*/
+
+#footer {
+    position: relative;
+    top:225px;
+    display: flex;
+    background-color: #1E1E26;
+    width: 1440px;
+    height: 244px;
+}
+
+#logo-footer {
+    position: relative;
+    left: 170px;
+    top: 80px;
+}
+
+i {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.redes {
+    margin-top: 12%;
+    position: relative;
+    left: 25px;
+}
+
+.a-logo {
+    text-decoration: none;
+}
+
+#logo-YT {
+    position: relative;
+    left: 10px;
+}
+
+#logo-TW {
+    position: relative;
+    left: 20px;
+}
+
+#logo-PT {
+    position: relative;
+    left: 30px;
+}
+
+#logo-IG {
+    position: relative;
+    left: 40px;
+}
+
+#lista1-footer {
+    position: relative;
+    top: 65px;
+    left: 150px;
+    line-height: 34px;
+}
+
+.lista {
+    list-style-type: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.a-lista {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#lista2-footer {
+    position: relative;
+    bottom: 70px;
+    left: 400px;
+    line-height: 34px;
+}
+
+#form {
+    margin-left: 570px;
+    margin-top: 60px;
+}
+
+input {
+    color: #F3613C;
+    font-size: 13px;
+    text-indent: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 201px;
+}
+
+button {
+    background-color: #F3613C;
+    border-radius: 50px;
+    border: #F3613C;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 134px;
+    height: 43px;
+}
+
+.carrusel {
+    display: none;
+}
+
+#button-white {
+    position: relative;
+    top: 25px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    border: #FFFFFF;
+    font-size: 13px;
+    color: #F3613C;
+    width: 134px;
+    height: 43px;
+}
+
+.a-buttons {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.a-button-white {
+    text-decoration: none;
+    color: #F3613C;
+}
+
+#button-go {
+    background-color: #F3613C;
+    border-radius: 50px;
+    border: #F3613C;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 63px;
+    height: 43px;
+    position: relative;
+    z-index: 10;
+    left: 5px;
+}
+
+#copyright {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8C8C94;
+    position: absolute;
+    right: 180px;
+    top: 200px;
+    width: 218px;
+}
+
+#button-header {
+    position: relative;
+    top: 30px;
+}
+
+/* PSEUDO SELECTORES */
+
+.a-nav:hover {
+    color: #8C8C94;
+}
+
+.a-lista:hover {
+    color: #F3613C;
+}
+
+i:hover {
+    color: #F3613C;
+}
+
+    /*TUVE QUE PONER EL CURSOR GRAB PARA SIMULAR LA MANO DE LINKEADO
+     PORQUE EL LINK DE LA ETIQUETA "a" ESTÁ SOLO EN EL TEXTO DEL BOTON, 
+     perdon por gritar*/
+
+button:hover {
+    opacity: 60%;
+    cursor: grab;
+}
+
+input:required {
+    border: 1px solid #F3613C;
+}
+
+    /*MEDIA QUERIES
+    - Medida de mi compu: 1366 x 768 
+    - Medida en Queries: 375 x 621 100%
+    - Me di cuenta a medida que las iba completando que me faltó Flex, especialmente para la parte del footer,
+        porque al principio arranqué muy bien con el querido Flex pero después como no había no tuve tiempo de crearlos
+        y para ser sincero... tuve que usar position, y... ya sé que abusé pero sino entregaba todo desordenado  jajjaja
+    */
+
+
+@media (max-width: 375px) {
+    
+    /*Me faltó solo una pastilla de background, la segunda.. :( pero quedó la primera :)*/
+
+    body {
+        background-image: url(../imagenes/bg-tablet-pattern.svg);
+        background-position-x: 61px;
+        background-position-y: -60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    #nav-list {
+        display: none;
+    }
+
+    #nav-main {
+        justify-content: space-between;
+        width: 375px;
+        height: 80px;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .column-left {
+        order: 1;
+    }
+
+    .column-right {
+        order: 2;
+    }
+
+    #illustration {
+        height: 90vw;
+        width: 57vh;
+    }
+
+    #button-header {
+        display: none;
+    }
+
+    #hamburguer {
+        display: block;
+        padding-top: 3%;
+        padding-right: 5%;
+        height: 40px;
+    }
+
+    #img-header {
+        left: 25px;
+        top: 25px;
+    }
+
+    #h1-responsive {
+        position: relative;
+        right: 15px;
+        display: flex;
+        text-align: center;
+        width: 100vw;
+    }
+
+    h1 {
+        text-align:center;
+        font-size: 34px;
+    }
+
+    article {
+        position: relative;
+        left: 15px;
+        bottom: 24px;
+        width: 85vw;
+        text-align: center;
+        color: #B3B2B7;
+        font-weight: 300;
+    }
+
+
+    .button-center {
+        position: relative;
+        left: 27vw;
+    }
+
+    section.column-right2 {
+        width: 375px;
+    }
+
+    .column-right2 {
+        order: 1;
+    }
+
+    .h2-home {
+        position: relative;
+        top: 40px;
+        left: 10px;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+        width: 300px;
+    }
+
+    #art-column-right2 {
+        position: relative;
+        left: 0px;
+        top: 30px;
+        width: 90vw;
+    }
+
+    .column-left2 {
+        order: 2;
+    }
+
+    .title-left2 {
+        font-size: 14px;
+        position: relative;
+        top: 10px;
+        left: 30px;
+    }
+
+    .span-responsive {
+        position: relative;
+        bottom: 10px;
+        right: 60px;
+        background-color: rgb(255, 239, 234);
+        width: 85vw;
+        height: 41px;
+    }
+
+    .numero-svg {
+        position: relative;
+        right: 15px;
+        z-index: 10;
+    }
+
+    .p-left2 {
+        text-align:left;
+        position: relative;
+        bottom: 20px;
+        right: 112px;
+        font-weight: 300;
+        line-height: 30px;
+        font-size: 15px;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    #p2-left2 {
+        text-align: left;
+        width: 360px;
+    }
+
+    #middle-home {
+        margin-bottom: 160px;
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .home3 {
+        flex-direction: column;
+    }
+
+    .avatar-hidden {
+        display: none;
+    }
+
+    .avatar-responsive {
+        display: flex;
+        justify-content: center;
+    }
+
+    .avatar-responsive img {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: 21px;
+    }
+
+    .what-said {
+        align-items: center;
+        width: 353px;
+        height: 280px;
+    }
+
+    #said-text-ali {
+        width: 320px;
+        position: relative;
+    }
+
+    .carrusel {
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        position: relative;
+        top: 20px;
+    }    
+    
+    #pre-footer {
+        width: 100vw;
+        height: 70vh;
+    }
+
+    #flex-pre-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 110px;
+    }
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        width: 350px;
+    }
+
+    #footer {
+        width: 100vw;
+        height: 638px;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 50px;
+        right: 980px;
+        margin-top: 30px;
+    }
+
+    #logo-footer {
+        top: 450px;
+        left: 120px;
+    }
+
+    #copyright {
+        top: 580px;
+        left: 90px;
+    }
+
+    .redes {
+        margin: 0%;
+        left: 0%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    i {
+        position: relative;
+        right: 150px;
+        margin-left: 250%;
+        font-size: 30px;
+    }
+
+    #logo-YT {
+        margin-right: 20%;
+    }
+
+    #logo-TW {
+        margin-right: 15%;
+    }
+
+    #logo-PT {
+        margin-right: 20%;
+    }
+
+    .a-logo {
+        display: flex;
+        height: 26px;
+    }
+
+    .listas-footer {
+        top: 70px;
+        width: 100vw;
+        height: 20vh;
+        position: relative;
+        right: 470px;
+    }
+
+    #lista2-footer {
+        position: relative;
+        width: max-content;
+    }
+
+    #button-go {
+        height: 48px;
+        width: 80px;
+    }
+
+    input {
+        width: 210px;
+    }
+}
